@@ -1,11 +1,38 @@
-<!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ "style.css" | relURL }}" >
+    <title>{{- .Title -}}&nbsp;-&nbsp;{{- .Site.Title -}}</title>
+</head>
+<body>
+<div id="content">
+    <header>
+        <img src="{{ "logo.jpg" | relURL }}" alt="{{- .Site.Title -}}">
+        {{- $currentPage := . -}}
+        <div class="site-menu">
+            <div class="hjem"><a href="/">Hjem</a></div>
+            <div class="kunstner"><a href="/artist">Kunstner</a></div>
+            {{ range .Site.Sections }}
+            {{ if not (isset .Params "hidden") }}
+            <div
+                    class="{{.Name}}{{ if .IsAncestor $currentPage }} active{{ end }}"
+            ><a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </div>
+            {{end}}
+            {{ end }}
+            <div class="kontakt"><a href="/contact">Kontakt</a></div>
         </div>
-        {{- partial "footer.html" . -}}
-    </body>
+    </header>
+    <div id="main">
+
+        {{- block "main" . }}{{- end }}
+    </div>
+    <footer>
+        Design by RED BEAST | Published 2021
+    </footer>
+</div>
+</body>
 </html>
