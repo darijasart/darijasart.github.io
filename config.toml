@@ -2,3 +2,13 @@ languageCode = "en-us"
 title = "Darija's art"
 theme = "darijasart"
 defaultContentLanguage = "no"
+
+[languages]
+    [languages.no]
+        title = "Darija's Art"
+        LanguageName = "Norsk"
+        weight = 1
+    [languages.en]
+        title = "Darija's Art"
+        LanguageName = "English"
+        weight = 2

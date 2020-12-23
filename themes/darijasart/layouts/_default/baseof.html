@@ -13,8 +13,8 @@
         <img src="{{ "logo.jpg" | relURL }}" alt="{{- .Site.Title -}}">
         {{- $currentPage := . -}}
         <div class="site-menu">
-            <div class="home-menu{{ if eq $currentPage.RelPermalink "/" }} active{{ end }}"><a href="/">Hjem</a></div>
-            <div class="artist-menu{{ if eq $currentPage.RelPermalink "/artist/" }} active{{ end }}"><a href="/artist">Kunstner</a></div>
+            <div class="home-menu{{ if eq $currentPage.RelPermalink "/" }} active{{ end }}"><a href="{{ "/" | absLangURL }}">Hjem</a></div>
+            <div class="artist-menu{{ if eq $currentPage.RelPermalink "/artist/" }} active{{ end }}"><a href="{{ "/artist" | absLangURL }}">Kunstner</a></div>
             {{ range .Site.Sections }}
             {{ if not (isset .Params "hidden") }}
             <div
@@ -23,7 +23,13 @@
             </div>
             {{end}}
             {{ end }}
-            <div class="contact-menu{{ if eq $currentPage.RelPermalink "/contact/" }} active{{ end }}"><a href="/contact">Kontakt</a></div>
+            <div class="contact-menu{{ if eq $currentPage.RelPermalink "/contact/" }} active{{ end }}"><a href="{{ "/contact" | absLangURL }}">Kontakt</a></div>
+            <span class="menu-divider"></span>
+            {{ range .Translations }}
+                {{ if ne $.Site.Language .Language }}
+                <div class="language {{.Language.LanguageName}}-language"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></div>
+                {{ end }}
+            {{ end }}
         </div>
     </header>
     <div id="main" class="{{.Section}}-main">

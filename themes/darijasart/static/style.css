@@ -28,10 +28,14 @@ body {
     display: flex;
 }
 
-.site-menu > * {
+.site-menu > div {
     padding: 1em 2em;
     margin-right: 0.5em;
     background-color: #3BB3C2;
+}
+
+.site-menu .menu-divider {
+    flex: 1;
 }
 
 .site-menu a {
@@ -101,4 +105,12 @@ footer {
 
 #home-main #news-section a {
     color: black;
+}
+
+.projects-main .project {
+    display: flex;
+}
+
+.projects-main .project img {
+    width: 200px;
 }

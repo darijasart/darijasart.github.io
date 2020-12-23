@@ -1,5 +1,5 @@
 ---
-title: artist
+title: Artist
 weight: 2
 ---
 ![Darija S Hauge](artist.jpg)
