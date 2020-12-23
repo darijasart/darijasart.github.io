@@ -1,0 +1,12 @@
+{{ define "main" }}
+NEWS
+<h1>{{.Title}}</h1>
+{{ .Content }}
+
+{{with .Resources.ByType "image" }}
+{{ range . }}
+    <img src="{{.Permalink}}" alt="{{.Title}}" />
+{{end}}
+{{end}}
+
+{{ end }}
