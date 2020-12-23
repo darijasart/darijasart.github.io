@@ -40,23 +40,23 @@ body {
     text-transform: lowercase;
 }
 
-.site-menu .hjem {
+.site-menu .home-menu {
     background-color: #84C225;
 }
 
-.site-menu .kunstner {
+.site-menu .artist-menu {
     background-color: #DD1A69;
 }
 
-.site-menu .prosjekter {
+.site-menu .projects-menu {
     background-color: #3BB3C2;
 }
 
-.site-menu .galleri {
+.site-menu .gallery-menu {
     background-color: #FFF500;
 }
 
-.site-menu .kontakt {
+.site-menu .contact-menu {
     background-color: #E67095;
 }
 
@@ -86,4 +86,19 @@ footer {
 
 .single-artwork {
     text-align: center;
+}
+
+#home-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+}
+
+#home-main #news-section h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#home-main #news-section a {
+    color: black;
 }
