@@ -13,21 +13,20 @@
         <img src="{{ "logo.jpg" | relURL }}" alt="{{- .Site.Title -}}">
         {{- $currentPage := . -}}
         <div class="site-menu">
-            <div class="hjem"><a href="/">Hjem</a></div>
-            <div class="kunstner"><a href="/artist">Kunstner</a></div>
+            <div class="home-menu{{ if eq $currentPage.RelPermalink "/" }} active{{ end }}"><a href="/">Hjem</a></div>
+            <div class="artist-menu{{ if eq $currentPage.RelPermalink "/artist/" }} active{{ end }}"><a href="/artist">Kunstner</a></div>
             {{ range .Site.Sections }}
             {{ if not (isset .Params "hidden") }}
             <div
-                    class="{{.Name}}{{ if .IsAncestor $currentPage }} active{{ end }}"
+                    class="{{.Section}}-menu{{ if .IsAncestor $currentPage }} active{{ end }}"
             ><a href="{{ .Permalink | absLangURL }}">{{ .Name }}</a>
             </div>
             {{end}}
             {{ end }}
-            <div class="kontakt"><a href="/contact">Kontakt</a></div>
+            <div class="contact-menu{{ if eq $currentPage.RelPermalink "/contact/" }} active{{ end }}"><a href="/contact">Kontakt</a></div>
         </div>
     </header>
-    <div id="main">
-
+    <div id="main" class="{{.Section}}-main">
         {{- block "main" . }}{{- end }}
     </div>
     <footer>
