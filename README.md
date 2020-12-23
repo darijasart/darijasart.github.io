@@ -1,4 +1,4 @@
-This is the source for darijasart.com. It is built using the template engine [Hugo](https://gohugo.io).
+This is the source for https://darijasart.com and https://darijasart.github.io. It is built using the template engine [Hugo](https://gohugo.io).
 
 ## Making and checking changes locally
 
