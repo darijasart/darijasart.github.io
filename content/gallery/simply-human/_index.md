@@ -1,4 +1,4 @@
 ---
 title: "SERIEN «MENNESKELIG – GANSKE ENKELT»"
-weight: 10
+weight: 2
 ---
