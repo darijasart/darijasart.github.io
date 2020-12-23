@@ -2,6 +2,7 @@ languageCode = "en-us"
 title = "Darija's art"
 theme = "darijasart"
 defaultContentLanguage = "no"
+baseurl = "/"
 
 [languages]
     [languages.no]
