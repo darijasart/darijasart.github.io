@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{ range .Sections }}
+{{- $section := . -}}
+    <h1>{{.Title}}</h1>
+
+    <div class="gallery">
+    {{ range .Pages }}
+    {{- $page := . -}}
+
+    <div class="artwork">
+        <div>
+            {{with .Resources.GetMatch "*.jpg" }}
+            {{with .Fill "300x300"}}
+            <a href="{{$page.Permalink}}">
+            <img src="{{.Permalink}}" alt="{{.Title}}" />
+            </a>
+            {{end}}
+            {{end}}
+        </div>
+        <div><a href="{{.Permalink}}">{{ .Title }}</a></div>
+    </div>
+    {{ end }}
+    <div>
+        {{ .Content }}
+    </div>
+    </div>
+{{ end }}
+
+{{ range .Pages }}
+    {{ if .IsPage }}
+    {{- $page := . -}}
+
+    <div>
+        <div>
+            {{with .Resources.GetMatch "*.jpg" }}
+            {{with .Fill "300x300"}}
+            <a href="{{$page.Permalink}}">
+                <img src="{{.Permalink}}" alt="{{.Title}}" />
+            </a>
+            {{end}}
+            {{end}}
+        </div>
+        <div><a href="{{.Permalink}}">{{ .Title }}</a></div>
+    </div>
+    {{ end }}
+{{ end }}
+{{ end }}

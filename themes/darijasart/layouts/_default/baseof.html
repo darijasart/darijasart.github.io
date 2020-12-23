@@ -19,7 +19,7 @@
             {{ if not (isset .Params "hidden") }}
             <div
                     class="{{.Name}}{{ if .IsAncestor $currentPage }} active{{ end }}"
-            ><a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            ><a href="{{ .Permalink | absLangURL }}">{{ .Name }}</a>
             </div>
             {{end}}
             {{ end }}

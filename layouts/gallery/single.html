@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{- $currentPage := . -}}
+
+<h1>{{ .Parent.Title }}</h1>
+
+<div class="single-artwork">
+{{range .Resources.ByType "image" }}
+{{ if $currentPage.PrevInSection }}
+    <a href="{{ $currentPage.PrevInSection.Permalink }}"><img src="{{.Title}}" /></a>
+{{ else }}
+    <img src="{{.Title}}" />
+{{ end }}
+{{end}}
+
+<p>
+    <strong>{{ .CurrentSection.Title }} / <em>{{ .Params.en.title }}</em> </strong>
+</p>
+<p>
+    {{ .Params.description }}
+</p>
+</div>
+{{ end }}
