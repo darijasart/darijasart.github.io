@@ -1,0 +1,20 @@
+{{ define "main" }}
+    {{ range .Pages }}
+    {{- $page := . -}}
+        <h1>{{ .Title }}</h1>
+    <div class="project" style="display: flex">
+
+        {{with .Resources.GetMatch "feature*.jpg" }}
+            <a href="{{ $page.URL }}"><img width="200px" src="{{$page.URL}}{{.Title}}"/></a>
+        {{end}}
+
+        <div>
+            {{ .Summary }}
+        </div>
+    </div>
+    {{ end }}
+
+<div>
+    {{ .Content }}
+</div>
+{{ end }}
