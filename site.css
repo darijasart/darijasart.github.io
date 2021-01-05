@@ -4,8 +4,8 @@ nav#narrow .logo {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 3em;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 2em;
 }
 
 .artwork img {
