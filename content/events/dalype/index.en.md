@@ -9,5 +9,3 @@ EXIBITION OPENING: 1 May 13:00. Welcome! At the opening of the exibition we hope
 
 PAINTINGS: Oil paintings that are exhibited, come from the series Simply Human and Place Norway.
 Simply Human : ”The series is a dive into man’s rich inner life: emotions, passions, small signs and also the unanswered and unexplored.” Place Norway: ”Place is an important and powerful component for man’s identity. Therefore through my art I explore places that I feel connection with, and I try to express that experience.”
-
-PURCHASE: If you want to buy paintings that are exhibited at Dalype Gallery, please contact the gallery at 22 95 12 33. If you wish to buy other paintings, contact the artist directly on phone 932 91 606 or by e-mail darija(at)darijasart.com. If you want to get a price list, send an e-mail with PRICE LIST, PAINTINGS in the subject line. Thank you for your interest.

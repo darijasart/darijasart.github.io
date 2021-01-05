@@ -9,5 +9,3 @@ OM MESSEN: Kunstmessen retter seg mot kunstkjøpere og kunstinteresserte i alle 
 PÅ STANDEN: Oljemalerier, foto og den eksotiske kubbestolen!
 
 OM KUBBESTOLEN: Farfaren til kjæresten min var en hendig mann, og en av tingene han likte å lage, var kubbestoler, laget av hele tømmerstokker. Vi gravde den støvete stolen fram fra roterommet på låven, og etter noen runder med sandpapir, har jeg dekket den med hvitmaling. Og så begynner den spennende delen. Jeg har tenkt å dekorere den. Male den. Ikke med tradisjonell rosemaling, men med et av mine egne mønstre. De såkalte Darijas kruseduller. Jeg synes det er en interessant kombinasjon av gammelt og moderne. Kom til Art:Oslo til standen min og se hvordan eksperimentet ender opp!
-
-KJØPE: Om du vil kjøpe malerier, ta kontakt på e-post darija(at)darijasart.com eller ring  932 91 606. Om du ønsker å få tilsendt prisliste, send e-post med PRISLISTE, MALERIER i tittelfeltet. Takk for interessen. 

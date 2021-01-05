@@ -8,6 +8,3 @@ Utstillingen holdes i tidsrommet mellom Litauens to uavhengighetsdatoer. 11. mar
 Malerier: Oljemalerier som stilles ut, kommer fra seriene Sted Norge, Sted Litauen og Menneskelig – ganske enkelt.
 Sted Norge. Sted Litauen: ”Sted er en viktig og kraftfull komponent i den menneskelige identitet. Gjennom min kunst ønsker jeg derfor å utforske ulike steder som mitt hjerte føler nærhet til, og derigjennom å utrykke denne opplevelsen.”
 Menneskelig – ganske enkelt: ”Serien er et forsøk på å dykke inn i menneskets rike indre liv: følelser, lidenskap, små tegn og også det ubesvarte og uutforskede.”
-
-Kjøpe: Om du vil kjøpe malerier, ta direkte kontakt med kunstneren på e-post darija(at)darijasart.com eller ring
-932 91 606. Om du vil få tilsendt prislise, send e-post med PRISLISTE i tittelfeltet. Takk for interessen. 
