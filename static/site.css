@@ -1,0 +1,45 @@
+nav#narrow .logo {
+    width: 100vw;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 3em;
+}
+
+.artwork img {
+    width: 100%;
+}
+
+.single-artwork {
+    text-align: center;
+}
+
+#home-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+}
+
+#home-main #news-section h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+main h1 {
+    font-size: 150%;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    font-weight: normal;
+}
+
+.projects-main .project {
+    display: flex;
+}
+
+.projects-main .project img {
+    width: 200px;
+    padding: 0.5em;
+}

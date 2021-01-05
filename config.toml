@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Darija's art"
-theme = "darijasart"
+theme = "hugo-Portfolio"
 defaultContentLanguage = "no"
 baseurl = "/"
 

@@ -1,0 +1,45 @@
+:root {
+    --main-color: black;
+    --text-color: white;
+    --accent: var(--text-color);
+}
+
+body {
+    font-family: Questrial, Arial, sans-serif;
+}
+
+main {
+    background: var(--main-color);
+}
+
+main, a {
+    color: var(--text-color);
+}
+
+.menu-button {
+    background: var(--main-color);
+    border: 1px solid var(--accent);
+}
+
+.menu-button div {
+    background-color: var(--accent);
+}
+
+nav#narrow .menu, nav#narrow .menu a {
+    color: var(--text-color);
+    background-color: var(--main-color);
+}
+
+nav#wide {
+    background-color: var(--main-color);
+}
+
+nav#wide a {
+    color: var(--text-color);
+}
+
+nav .active {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
