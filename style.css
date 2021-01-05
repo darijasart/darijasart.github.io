@@ -1,116 +1,29 @@
 body {
-    font-family: verdana, arial, sans-serif;
-    font-size: .68em;
-}
-
-#content {
-    max-width: 766px;
-    margin: auto;
-}
-
-#content header {
-    background: url("logo.jpg");
-    background-size: contain;
-}
-
-#main {
-    padding: 4em 2em 2em 2em;
-}
-
-#main h1 {
-    font-size: 150%;
-    text-transform: uppercase;
-    border-bottom: 1px solid;
-    font-weight: normal;
-}
-
-.site-menu {
-    display: flex;
-}
-
-.site-menu > div {
-    padding: 1em 2em;
-    margin-right: 0.5em;
-    background-color: #3BB3C2;
-}
-
-.site-menu .menu-divider {
-    flex: 1;
-}
-
-.site-menu a {
-    color: black;
-    text-decoration: none;
-    text-transform: lowercase;
-}
-
-.site-menu .home-menu {
-    background-color: #84C225;
-}
-
-.site-menu .artist-menu {
-    background-color: #DD1A69;
-}
-
-.site-menu .projects-menu {
-    background-color: #3BB3C2;
-}
-
-.site-menu .gallery-menu {
-    background-color: #FFF500;
-}
-
-.site-menu .contact-menu {
-    background-color: #E67095;
-}
-
-.site-menu .active {
-    background-color: white;
-}
-
-footer {
-    text-align: center;
-}
-
-.gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 3em;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
 }
 
-.artwork img {
-    width: 100%;
+main {
+    overflow: auto;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
-.artwork img:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+main > div {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
 }
 
-.single-artwork {
-    text-align: center;
+main img {
+    max-width: calc(100vw - 10em);
 }
 
-#home-main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 1em;
-}
-
-#home-main #news-section h3 {
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-#home-main #news-section a {
-    color: black;
-}
-
-.projects-main .project {
-    display: flex;
-}
-
-.projects-main .project img {
-    width: 200px;
+@media screen and (max-width: 500px) {
+    main {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
