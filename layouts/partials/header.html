@@ -1,0 +1,24 @@
+<header>
+    <div class="site-header" style='background: url({{ "/logo.jpg" | relURL }}) no-repeat scroll top'>
+        <a href='{{ "/" | relLangURL }}'>
+            <h1>Creative everything</h1>
+            <h2>Darijas sider om kunst</h2>
+        </a>
+    </div>
+    <nav id="wide">
+        {{- partial "menu.html" . -}}
+    </nav>
+
+    <nav id="narrow">
+        <label class="nav-menu">
+            <input type="checkbox" title="Menu" />
+            <div class="menu-button" aria-hidden="true"><div class="menu-button-top"></div><div class="menu-button-middle"></div><div class="menu-button-bottom"></div></div>
+            <div class="menu-wrapper">
+                <div class="menu">
+                    <a href='{{ "/" | relLangURL }}'>{{ .Site.Home.Title }}</a>
+                    {{- partial "menu.html" . -}}
+                </div>
+            </div>
+        </label>
+    </nav>
+</header>
