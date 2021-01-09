@@ -5,7 +5,7 @@
     <div class="project">
 
         {{with .Resources.GetMatch "feature*.jpg" }}
-            <a href="{{ $page.Permalink }}"><img src="{{$page.URL}}{{.Title}}"/></a>
+            <a href="{{ $page.Permalink }}"><img src="{{.RelPermalink}}" alt="{{$page.Title}}"/></a>
         {{end}}
 
         <div>

@@ -10,7 +10,7 @@
     <div class="artwork">
         <div>
             {{with .Resources.GetMatch "*.jpg" }}
-            {{with .Fill "300x300"}}
+            {{with .Fill "200x200"}}
             <a href="{{$page.Permalink}}">
             <img src="{{.Permalink}}" alt="{{.Title}}" />
             </a>
@@ -26,22 +26,22 @@
     </div>
 {{ end }}
 
+<div class="gallery">
 {{ range .Pages }}
     {{ if .IsPage }}
     {{- $page := . -}}
 
-    <div>
-        <div>
+        <div class="artwork">
             {{with .Resources.GetMatch "*.jpg" }}
-            {{with .Fill "300x300"}}
+            {{with .Fill "200x200"}}
             <a href="{{$page.Permalink}}">
                 <img src="{{.Permalink}}" alt="{{.Title}}" />
             </a>
             {{end}}
             {{end}}
+            <div><a href="{{.Permalink}}">{{ .Title }}</a></div>
         </div>
-        <div><a href="{{.Permalink}}">{{ .Title }}</a></div>
-    </div>
     {{ end }}
 {{ end }}
+</div>
 {{ end }}
