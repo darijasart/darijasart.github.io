@@ -1,5 +1,5 @@
 ---
-title: UTSTILLING AV MALERIER PÅ DEN LITAUISKE AMBASSADEN
+title: Utstilling av malerier på den Litauiske ambassaden
 ---
 Hvor: Den Litauiske Ambassaden, Dronningens gate 3, Oslo
 Når: 17. februar – 17 mars. Ma.–fre. 8–16. Stengt 12. mars.

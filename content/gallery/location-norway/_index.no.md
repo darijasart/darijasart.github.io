@@ -1,5 +1,5 @@
 ---
-title: "SERIEN «STED NORGE» / OLJEMALERI"
+title: "Serien «Sted Norge» / oljemaleri"
 weight: 1
 ---
 Isvandring på Hvervenbukta I

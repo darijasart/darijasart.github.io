@@ -1,5 +1,5 @@
 ---
-title: EXHIBITION OF PAINTINGS AT DALYPE GALLERY
+title: Exhibition of paintings at Dalype Gallery
 ---
 WHERE: Dalype Gallery, Bentsegata 1, Oslo. Dalype Gallery is located on the corner of Bentsegata and Maridalsveien in a building that is a part of the picturesque Omholt courtyard. The old cobble-stone courtyard with the surrounding houses were bought by Aage Omholt in 1940. The half-timbered houses are mainly from the 1900th century, having housed around 90 people in 1875. In 2001 the houses were designated as listed buildings by Byantikvaren. See the map >>
 

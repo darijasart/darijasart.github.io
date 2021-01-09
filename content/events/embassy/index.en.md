@@ -1,5 +1,5 @@
 ---
-title: EXHIBITION IN THE LITHUANIAN EMBASSY
+title: Exhibition in the Lithuanian Embassy
 ---
 Where: Lithuanian Embassy, Dronningens gate 3, Oslo
 When: 17th Feb. – 17th March. Monday – Friday 8–16. Closed 12th March.

@@ -3,7 +3,7 @@ title: "Tremøbler"
 summary: "Se flere tremøbler med kruseduller."
 weight: 1
 ---
-## CHAIR 2011
+## Chair 2011
 
 En enkel IKEA-stol forvandlet til et romantisk kaffebord.
 
@@ -15,7 +15,7 @@ En enkel IKEA-stol forvandlet til et romantisk kaffebord.
 
 
 
-## STOOL 2010
+## Stool 2010
 
 Mange såkalte design-stoler har mindre praktisk nytte enn utseende. Stolprosjektet er et forsøk på å minne oss på hvor funksjonelle gamle former er. På denne stolen kan du stå mens du maler taket uten å bekymre deg for det dyre designet, fordi mesteparten av dekorasjonen er på undersiden! Det er som med klær som kun har trykk på innsiden, så kun du og din kjære kan se den skjulten skatten din…
 
@@ -29,7 +29,7 @@ Mange såkalte design-stoler har mindre praktisk nytte enn utseende. Stolprosjek
 
 **A handy stool for a working man!**
 
-## BOX 2011
+## Box 2011
 
 Interiør-vennlig verktøykasse.
 

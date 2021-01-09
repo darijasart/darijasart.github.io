@@ -1,4 +1,4 @@
 ---
-title: "SERIEN «MENNESKELIG – GANSKE ENKELT»"
+title: "Serien «Menneskelig – ganske enkelt»"
 weight: 2
 ---

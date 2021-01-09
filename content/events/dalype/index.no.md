@@ -1,5 +1,5 @@
 ---
-title: UTSTILLING AV MALERIER PÅ DALYPE GALERI
+title: Utstilling av malerier på Dalype Galleri
 ---
 HVOR: Dalype Galleri, Bentsegata 1, Oslo. Dalype Galleri befinner seg på hjørnet av Bentsegata og Maridalsveien, og bygningen er del av det maleriske Omholt-tunet. Den brolagte gårdsplassen med de gamle husene omkring ble kjøpt av Aage Omholt i 1940. Bindingsverkhusene er hovedsakelig fra 1800-tallet og huset i 1875 om lag 90 personer. I 2001 ble husene oppført på Byantikvarens gule liste over bevaringsverdige bygninger. Se kart >>
 

@@ -3,7 +3,7 @@ title: "Wooden furniture"
 summary: "A simple IKEA stool transformed into a romantic coffee table."
 weight: 1
 ---
-## CHAIR 2011
+## Chair 2011
 
 A simple IKEA stool transformed into a romantic coffee table.
 
@@ -15,7 +15,7 @@ A simple IKEA stool transformed into a romantic coffee table.
 
 
 
-## STOOL 2010
+## Stool 2010
 
 Many so-called design chairs have less function than looks. Stool project is an attempt to remind how functional old forms are. You can stand on this stool while painting your ceiling with no fear of destroying its pricey designs. Because most of the decoration is underneath! It is like clothing that has prints only inside, so that only you and your lover can see the hidden treasure you possess...
 
@@ -29,7 +29,7 @@ Many so-called design chairs have less function than looks. Stool project is an 
 
 **A handy stool for a working man!**
 
-## BOX 2011
+## Box 2011
 
 Interior-friendly toolbox.
 
