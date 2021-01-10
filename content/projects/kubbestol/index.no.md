@@ -1,5 +1,5 @@
 ---
-title: Kubbestol
+title: Den eksotiske kubbestolen
 weight: 2
 summary: "Kubbestol er et spennende prosjekt som kombinerer tradisjonelt norsk håndverk med moderne dekorasjon i Darijas stil."
 ---
@@ -24,4 +24,6 @@ summary: "Kubbestol er et spennende prosjekt som kombinerer tradisjonelt norsk h
 
 ### Få dine tremøbler og vegger malt i darijas stil!
 
-![Darija arbeider med kubbestolen](Kubbestol_artoslo2010.jpg) *Kubbestol Art:oslo I september startet jeg arbeidet med kubbestolen. Det blir spennende å se hvordan den ender opp. En ting kan jeg si for sikkert: Dette blir IKKE en tradisjonell norsk kubbestol! Darija, sept. 2010*
+![Kubbestol Art:oslo](featured-Kubbestol_artoslo2010.jpg)
+
+*Kubbestol Art:oslo I september startet jeg arbeidet med kubbestolen. Det blir spennende å se hvordan den ender opp. En ting kan jeg si for sikkert: Dette blir IKKE en tradisjonell norsk kubbestol! Darija, sept. 2010*

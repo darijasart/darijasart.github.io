@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div>
+    {{ .Content }}
+</div>
+
+    {{ range .Pages }}
+    {{- $page := . -}}
+        <h2><a href="{{ $page.Permalink }}">{{ .Title }}</a></h2>
+    <div class="project">
+
+        {{with .Resources.GetMatch "feature*.jpg" }}
+            <a href="{{ $page.Permalink }}"><img src="{{.RelPermalink}}" alt="{{$page.Title}}"/></a>
+        {{end}}
+
+    </div>
+    {{ end }}
+{{ end }}

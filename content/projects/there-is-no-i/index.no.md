@@ -1,5 +1,5 @@
 ---
-title: "There is no 'I'  (foto & video kunstprosjekt) på Nordic Light International Festival of Photography i Kristiansund"
+title: '"There is no ”I”"'
 summary: |
     *Shifting experiential contexts allow for recognition that the so-called "I" exists only so far as a given context.*
     

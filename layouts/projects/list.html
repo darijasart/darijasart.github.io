@@ -1,11 +1,12 @@
 {{ define "main" }}
     {{ range .Pages }}
     {{- $page := . -}}
-        <h1>{{ .Title }}</h1>
+        <h2>{{ .Title }}</h2>
     <div class="project">
-
         {{with .Resources.GetMatch "feature*.jpg" }}
-            <a href="{{ $page.Permalink }}"><img src="{{.RelPermalink}}" alt="{{$page.Title}}"/></a>
+            {{with .Resize "200x"}}
+                <a href="{{ $page.Permalink }}"><img src="{{.RelPermalink}}" alt="{{$page.Title}}"/></a>
+            {{end}}
         {{end}}
 
         <div>
@@ -14,7 +15,26 @@
     </div>
     {{ end }}
 
-<div>
-    {{ .Content }}
-</div>
+{{ range (where .Site.Sections "Section" "gallery") }}
+    {{range .Sections}}
+    <h2>{{ .Title }}</h2>
+
+    <div class="project">
+    {{ range first 1 .Pages }}
+        {{- $page := . -}}
+        {{with .Resources.ByType "image" }}
+        {{range first 1 .}}
+        {{with .Resize "200x"}}
+        <a href="{{ $page.Permalink }}"><img src="{{.RelPermalink}}" alt="{{$page.Title}}"/></a>
+        {{end}}
+        {{end}}
+        {{end}}
+    {{end}}
+    <div>
+        {{ .Content }}
+    </div>
+    </div>
+    {{end}}
+{{end}}
+
 {{ end }}

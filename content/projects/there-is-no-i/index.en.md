@@ -1,12 +1,11 @@
 ---
-title: "THERE IS NO 'I'  (photo & video art project) at Nordic Light International festival of photography in Kristiansund"
+title: '"There is no ”I”"'
 summary: |
     *Shifting experiential contexts allow for recognition that the so-called "I" exists only so far as a given context.*
 
-
 ---
 
-*The photo–video project“THERE IS NO ’I’” takes part in Nordic Light International Festival of Photography, Kristiansund i 2010.**
+*The photo–video project “THERE IS NO ’I’” takes part in Nordic Light International Festival of Photography, Kristiansund i 2010.**
 
 ![](thereisnoi_1.jpg)
 

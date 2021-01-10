@@ -1,5 +1,5 @@
 ---
-title: '"Kubbestol" (wooden chair)'
+title: 'The exotic "Kubbestol"'
 weight: 2
 summary: "Kubbestol (wooden chair) is an exciting experiment combining traditional Norwegian craftsmanship with modern decoration in Darija's style"
 ---
@@ -27,4 +27,6 @@ Can't stop! Now I started on another, normal though, chair we had at home. Since
 
 ### Get your wooden furniture or walls painted in Darija's style!
 
-![Darija arbeider med kubbestolen](Kubbestol_artoslo2010.jpg) *In September I started working on kubbestolen. Excited to see how it will end up. One thing I can tell for sure: It is NOT going to be a traditional Norwegian kubbestol! Darija, Sept. 2010*
+![Darija arbeider med kubbestolen](featured-Kubbestol_artoslo2010.jpg)
+
+*In September I started working on kubbestolen. Excited to see how it will end up. One thing I can tell for sure: It is NOT going to be a traditional Norwegian kubbestol! Darija, Sept. 2010*

@@ -1,3 +1,17 @@
 {{ define "main" }}
 {{ .Content }}
+
+{{ range first 3 ( sort (where .Site.RegularPages "Section" "projects") "Date" "desc" ) }}
+{{- $page := . -}}
+<h2>{{ .Title }}</h2>
+<div class="project">
+    {{with .Resources.GetMatch "feature*.jpg" }}
+    {{with .Resize "500x"}}
+        <a href="{{ $page.Permalink }}"><img src="{{.RelPermalink}}" alt="{{$page.Title}}"/></a>
+    {{end}}
+    {{end}}
+</div>
+{{ end }}
+
+
 {{ end }}
