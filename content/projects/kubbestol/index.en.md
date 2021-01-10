@@ -1,5 +1,5 @@
 ---
-title: Kubbestol (wooden chair)"
+title: '"Kubbestol" (wooden chair)'
 weight: 2
 summary: "Kubbestol (wooden chair) is an exciting experiment combining traditional Norwegian craftsmanship with modern decoration in Darija's style"
 ---

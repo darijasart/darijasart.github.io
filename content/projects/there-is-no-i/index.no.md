@@ -35,7 +35,7 @@ summary: |
 *"It was a great honor to share an exhibition sight with you: Romano Cagnoni, Chris Rainier, Alison Jackson, Arturas Valiauga, Shehab Uddin, Philip Mccormack, Øystein Kvanneid, Alexandra Demenkova and Point of No Return".*
 
 
-# PROSJEKT «THERE IS NO "I"» / VIDEO
+# Prosjekt «There is no "I"» / video
 
 [![YouTube: There is no "I". Part 2: Vienis.](https://img.youtube.com/vi/fyrDhiaLMhE/0.jpg)](https://www.youtube.com/watch?v=fyrDhiaLMhE)
 
@@ -43,7 +43,7 @@ summary: |
 **Enhet (NO) / Oneness (EN) / Vienis (LT)**
 Litauen, 2008. Video
 
-# PROSJEKT «THERE IS NO "I"» / FOTO
+# Prosjekt «There is no "I"» / foto
 
 ![](There_is_no_I_1.jpg)
 ![](There_is_no_I_15.jpg)

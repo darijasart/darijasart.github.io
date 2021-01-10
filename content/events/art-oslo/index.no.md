@@ -1,5 +1,5 @@
 ---
-title: DELTAKELSE PÅ ART:OSLO, NORGES STØRSTE KUNSTHAPPENING. OSLO SPEKTRUM, 18-19 SEPTEMBER 2010
+title: Deltakelse på Art:Oslo, Norges største kunsthappening. Oslo Spektrum, 18-19 september 2010
 ---
 HVOR: STAND A02-19, Oslo Spektrum, Sonja Henies plass 2, Oslo. Les mer om Art:Oslo >>
 

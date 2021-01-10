@@ -1,5 +1,5 @@
 ---
-title: PARTICIPATION AT ART:OSLO, BIGGEST NORWEGIAN ART HAPPENING. OSLO SPEKTRUM, 18-19 SEPTEMBER 2010
+title: Participation at Art:Oslo, biggest Norwegian art happening. Oslo Spektrum, 18-19 September 2010
 ---
 WHERE: STAND A02-19, Oslo Spektrum, Sonja Henies plass 2, Oslo. Read more at Art:Oslo >>
 
