@@ -1,9 +1,7 @@
 .site-header {
-    background-size: 1600px auto;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
     min-height: 200px;
-}
-
-.site-header {
     padding-left: 58px;
 }
 
@@ -11,6 +9,17 @@
     font-size: 60px;
     margin: 0;
     padding-top: 0.5em;
+}
+
+@media screen and (max-width: 800px) {
+    .site-header h1 {
+        font-size: 48px;
+    }
+
+    .site-header {
+        padding-left: 1em;
+        min-height: 100px;
+    }
 }
 
 .site-header h2 {
@@ -30,6 +39,7 @@
 
 nav#wide {
     justify-content: flex-start;
+    padding-left: 0;
 }
 
 nav#wide > * {
@@ -50,6 +60,7 @@ main h1, h2, h3, h4, h5, h6 {
 
 main {
     padding-top: 1em;
+    overflow: visible;
 }
 
 /**
