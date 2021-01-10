@@ -1,11 +1,12 @@
 <header>
-    <div class="site-header" style='background: url({{ "/logo.jpg" | relURL }}) no-repeat scroll top'>
+    <div class="site-header" style='background-image: url({{ "/logo.jpg" | relURL }})'>
         <a href='{{ "/" | relLangURL }}'>
             <h1>Creative everything</h1>
             <h2>Darijas sider om kunst</h2>
         </a>
     </div>
     <nav id="wide">
+        <a class="menu-item" href='{{ "/" | relLangURL }}'>{{ .Param "home" }}</a>
         {{- partial "menu.html" . -}}
     </nav>
 

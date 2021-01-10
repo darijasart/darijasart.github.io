@@ -9,7 +9,11 @@ baseurl = "/"
         title = "Darija's Art"
         LanguageName = "Norsk"
         weight = 1
+        [languages.no.params]
+            home = "Hjem"
     [languages.en]
         title = "Darija's Art"
         LanguageName = "English"
         weight = 2
+        [languages.en.params]
+            home = "Home"
